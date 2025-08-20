@@ -2,7 +2,7 @@ import re
 import os
 
 # change this to your log file name
-filename = "note pad name" #put yout txt log name
+filename = "notepad name" #put yout txt log name
 base_name = os.path.splitext(os.path.basename(filename))[0]
 output_file = base_name + "_ExactBytes.txt"
 
